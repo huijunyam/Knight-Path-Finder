@@ -77,6 +77,7 @@ end
 
 if __FILE__ == $PROGRAM_NAME
   kpf = KnightPathFinder.new([0, 0])
+  #TEST
   p kpf.find_path([7, 6])
   p kpf.find_path([6, 2])
 end
